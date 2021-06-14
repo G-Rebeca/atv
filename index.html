@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang = pt-br>
+<head>
+	<title>Teste</title>
+<link href="style.css" type= "text/css"rel = "stylesheet"/>
+<meta charset = "utf-8"/>
+<meta name = "viewport" content = "width=device-width,initial-scale = 1.0, maximum-scale=1.0">
+
+</head>
+<body>
+	<div class  = "header">
+		<div class= "center">
+			 <img src="code.png">
+		</div>
+	</div>
+	
+	<div class = "container-banner">
+		<div class="center">
+			<div>
+				<div class= "container-list">
+					<p>Tem interesse em aprender programação? Inscreva-se agora!</p>
+					<p>Para todas as idades!</p>
+				</div>
+			</div>
+		
+			<div>
+				<div class= "form">
+					<h2>Cadastre-se</h2>
+					<form action="pag.php" method="post">
+						<div class= "input-container">
+							<span>Nome</span>
+							<input type="text" name="nome" required/>
+						</div>
+
+						<div class= "input-container">
+							<span>E-mail</span>
+							<input type="text" name="email" required/>
+						</div>
+
+						<div class= "input-container">
+							<span>Data de nascimento</span>
+							<input type="date" name="data" required/>
+						</div>
+
+						<div class= "input-container">
+							<span>Linguagem de programação</span>
+							<select id="lp" name="lp" required>
+								<option value="Java">Java</option>
+								<option value="Python">Python</option>
+								<option value="C++">C++</option>
+							</select>
+						</div>
+
+						<div class = "input-submit-container">
+							<input type="submit" name="enviar" value="Enviar"/>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class= "clear"></div>
+
+	<div class="container-2">
+		<div class="center">
+			<h2>Aprenda de forma gratuita</h2>
+			<p>Além de garantir seu sucesso profissional, a programação desenvolve o raciocínio lógico, melhora a criatividade e estimula o domínio da língua inglesa.</p>
+		</div>
+		<div class="arrow"></div>
+	</div>
+
+
+	<div class="section-1">
+		<h2>O que temos a oferecer?</h2>
+		<div class="center"></div>
+		<div class="container-section">
+			<div class="container-single">
+				<div> <img src="icon.png"></div>
+				<div class="text-container-single">
+					<h2>Linguagens disponíveis</h2>
+					<p>Java</p>
+					<p>Python</p>
+					<p>C++</p>
+				</div>
+			</div>
+			<div class="container-single">
+				<div> <img src="icon.png"></div>
+				<div class="text-container-single">
+					<h2>Em breve</h2>
+					<p>JavaScript</p>
+					<p>PHP</p>
+					<p>C#</p>
+				</div>
+			</div>
+	</div>
+</div>
+</div>
+
+</body>
+</html>
